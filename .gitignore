@@ -1,0 +1,20 @@
+#ignore ZIP-archives
+*.zip
+
+#ignore image data
+img_data/
+
+#ignore Pipfile.lock
+Pipfile.lock
+
+#ignore Libreoffice lock
+*.csv#
+
+#ignore created .csv
+*.csv
+
+#ignore get-pip
+get-pip.py
+
+#ignore Jupyter checkpoints
+*-checkpoint.ipynb
