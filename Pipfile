@@ -18,6 +18,8 @@ ipykernel = "*"
 image = "*"
 tensorflow = "*"
 opencv-python = "*"
+musicrec = {path = "."}
+imutils = "*"
 
 [requires]
 python_version = "3.7"
