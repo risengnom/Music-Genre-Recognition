@@ -21,3 +21,6 @@ get-pip.py
 
 #ignore vs-code settings
 .vscode
+
+#ignore test file
+mel-new.ipynb
