@@ -24,3 +24,6 @@ get-pip.py
 
 #ignore test file
 mel-new.ipynb
+
+#ignore logs
+*.log
