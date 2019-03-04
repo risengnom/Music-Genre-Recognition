@@ -4,6 +4,7 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+pylint = "*"
 
 [packages]
 librosa = "*"
@@ -17,6 +18,9 @@ keras = "*"
 ipykernel = "*"
 image = "*"
 tensorflow = "*"
+opencv-python = "*"
+musicrec = {path = "."}
+imutils = "*"
 
 [requires]
 python_version = "3.7"

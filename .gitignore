@@ -18,3 +18,12 @@ get-pip.py
 
 #ignore Jupyter checkpoints
 *-checkpoint.ipynb
+
+#ignore vs-code settings
+.vscode
+
+#ignore test file
+mel-new.ipynb
+
+#ignore logs
+*.log

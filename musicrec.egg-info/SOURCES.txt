@@ -1,0 +1,6 @@
+setup.py
+musicrec.egg-info/PKG-INFO
+musicrec.egg-info/SOURCES.txt
+musicrec.egg-info/dependency_links.txt
+musicrec.egg-info/not-zip-safe
+musicrec.egg-info/top_level.txt
