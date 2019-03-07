@@ -21,6 +21,7 @@ tensorflow = "*"
 opencv-python = "*"
 musicrec = {path = "."}
 imutils = "*"
+tk = "*"
 
 [requires]
 python_version = "3.7"
