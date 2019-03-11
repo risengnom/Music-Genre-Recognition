@@ -17,11 +17,10 @@ sklearn = "*"
 keras = "*"
 ipykernel = "*"
 image = "*"
-tensorflow = "*"
-opencv-python = "*"
 musicrec = {path = "."}
 imutils = "*"
-tk = "*"
+seaborn = "*"
+tensorflow = "*"
 
 [requires]
 python_version = "3.7"

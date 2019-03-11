@@ -48,7 +48,7 @@ def endProgress():
 duration = 2.97
 sr = 22050 # if sampling rate is different, resample it to this
 input_root = './../../../models/'
-input_whole = input_root + 'best_model.h5'
+input_whole = input_root + 'cnn_dong_model_whole.h5'
 input_label = input_root + 'label.pkl'
 input_test_paths = input_root + 'test_paths.pkl'
 default_song = Path("../../../audio/testfiles/GTZAN/genres/rock/rock.00003.wav")
