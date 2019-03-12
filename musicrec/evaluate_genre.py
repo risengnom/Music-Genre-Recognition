@@ -15,7 +15,7 @@ import progress
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 tf.logging.set_verbosity(tf.logging.ERROR)
 
-cnn_modelpath = "./../../../models/cnn_dong_model_whole.h5"
+cnn_modelpath = "/home/carsten/workspaces/isws/models/cnn_gtzan_model_65pct.h5"
 duration = 2.97 #Duration of checked segments
 n_mels = 64
 fft_points = 512
