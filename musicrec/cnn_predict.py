@@ -27,7 +27,7 @@ tf.logging.set_verbosity(tf.logging.ERROR)
 duration = 2.97
 sr = 22050 # sampling rate
 input_root = './../../../models/'
-input_whole = input_root + 'cnn_dong_model_whole.h5'
+input_whole = input_root + 'cnn_gtzan_model_65pct.h5'
 input_label = input_root + 'label.pkl'
 input_test_paths = input_root + 'test_paths.pkl'
 default_song = Path("../../../audio/testfiles/GTZAN/genres/rock/rock.00003.wav")
@@ -65,7 +65,7 @@ if len(paths) == len(offsets) and len(offsets) == len(durations):
     print("[INFO]: Ingested dimensions are fine! Amount of Datapoints: " + str(len(paths)))
 else:
     print("[Error]: Dimensions of read file invalid!")
-    raise
+
 
 
 # In[6]:
@@ -134,4 +134,3 @@ print("[INFO]: Done.")
 
 with open(output_test_results, 'wb') as f:
     pickle.dump(p_songs, f)
-
