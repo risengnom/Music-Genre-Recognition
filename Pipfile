@@ -21,6 +21,7 @@ musicrec = {path = "."}
 imutils = "*"
 seaborn = "*"
 tensorflow = "*"
+pydot = "*"
 
 [requires]
 python_version = "3.7"

@@ -49,7 +49,7 @@ def remove_songs(input1="song.wav", input2="song.m4a"):
 
 def calc_features(cnn_model, ann_model, song="song.wav"):
     progress.startProgress("[INFO]: Calculating features and CVN prediction for " + str(song) + ".")
-    start = 0
+    start = 30
     scan_length = 30
 
     for i in range(int(scan_length/(duration/2))-1):
@@ -98,7 +98,7 @@ def calc_features(cnn_model, ann_model, song="song.wav"):
             ann_prediction = ann_predictions[i]
         else:
             ann_prediction = (ann_prediction + ann_predictions[i])/2
-    pred_label_num = np.argmax(ann_prediction)
+    pred_label_num = ann_prediction.argmax(axis=0)
     print(pred_label_num)
     print(genres[pred_label_num])
             
